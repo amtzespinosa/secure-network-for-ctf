@@ -17,10 +17,10 @@ Now let's add our DHCP server to the VBox configuration:
 
     vboxmanage dhcpserver add --network=[network name] --server-ip=[server IP] --lower-ip=[lower IP] --upper-ip=[upper IP] --netmask=255.255.255.0 --enable
 
-**[network name]:** here you can name your intranet as you wish.
-**[server IP]:** here you can set the IP for your server. I went for 192.168.1.1
-**[lower IP]:** the first IP to be assign once you use the network for the first time.
-**[upper IP]:** the last IP that would be assign.
+- **[network name]:** here you can name your intranet as you wish.
+- **[server IP]:** here you can set the IP for your server. I went for 192.168.1.1
+- **[lower IP]:** the first IP to be assign once you use the network for the first time.
+- **[upper IP]:** the last IP that would be assign.
 
 In case you want to copy my setup:
 
